@@ -1,0 +1,133 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  background-color: #e6e6e6;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+  background-color: #75b2c7;
+  border-radius: 25px;
+  margin: 5px 5px 10px 5px;
+  padding-top: 115px;
+  padding-bottom: 15px;
+}
+
+img[alt="Reload Button"] {
+  position: absolute;
+  right: 22px;
+  top: 25px;
+  cursor: pointer;
+}
+
+h1 {
+  position: absolute;
+  top: 30px;
+  left: 35px;
+  width: 50vw;
+}
+
+header table tr {
+  display: inline-block;
+  position: relative;
+  left: 8px;
+}
+
+header table tr td {
+  padding: 1.5px;
+}
+
+#warningRow { /*warning row*/
+  display: block;
+  margin-left: 15px;
+}
+
+#warning { /*warning*/
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+#warning + td { /*warning message*/
+  background-color: #ff4d4d;
+  margin-left: 1.2px;
+  margin-top: -1.5px;
+  padding: 14px 15px;
+  width: calc(100vw - 126px);
+  border-radius: 0px 15px 15px 15px;
+  margin-bottom: 20px;
+}
+
+#lastUpdate { /*last update*/
+  display: block;
+  position: relative;
+  left: calc(100vw - 210px);
+}
+
+span {
+  display: inline-block;
+  margin: 20px 10px 0px 5px;
+  cursor: pointer;
+  border-radius: 10px 10px 0px 0px;
+  background-color: white;
+  padding: 6px 15px;
+  font-size: 22px;
+}
+
+span:nth-child(3) { /*orecast option tag*/
+  margin-left: 0px;
+}
+
+#WR, #WF {
+  background-color: white;
+  margin: 0px 5px 5px 5px;
+  border-radius: 0px 10px 10px 10px;
+}
+
+#WR tbody, #WF tbody {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 5px;
+}
+
+#WR tr {
+  display: flex;
+  flex-direction: column;
+  background-color: #99ebff;
+  border-radius: 20px;
+  box-shadow: 2px 2px grey;
+  margin: 7px;
+  width: 140px;
+  height: 140px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+img[alt="Close Button"] {
+  position: relative;
+  cursor: pointer;
+  left: 50px;
+  bottom: 3px;
+}
+
+#WR tr th {
+  padding: 0px 10px;
+}
+
+#WF tr {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 2px 2px grey;
+  background-color: #f0f0ff;
+  margin: 7px;
+  padding: 3px;
+}
